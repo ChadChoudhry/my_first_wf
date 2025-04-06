@@ -1,7 +1,8 @@
 # Basic Bioinformatics Workflow with Nextflow
 
 This repository contains a modular, reproducible **Nextflow** workflow for processing short-read sequencing data. 
-It includes quality control, read trimming, assembly, and basic summary statistics.
+It includes quality control, read trimming, assembly, and basic summary statistics. 
+Versions of software used are at the bottom of this README.
 
 This pipeline was developed and tested on:
 > 💻 Apple Silicon M2 Max MacBook Pro 32GB RAM
