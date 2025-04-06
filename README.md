@@ -76,3 +76,6 @@ Nextflow version 24.10.4
 miniconda version: 24.9.2
 Also, the nextflow script uses docker to grab the latest versions of fastp, spades and seqkit from the staphb dockerhub website.
 Lastly, this took roughly 18 minutes to run on my local machine, but I had many other things open at the same time.
+
+
+![Workflow Diagram](flowchart.png)
