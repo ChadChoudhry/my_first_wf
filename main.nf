@@ -14,10 +14,10 @@ workflow {
     // Use local test data if test mode is on
     if (params.test) {
         log.info "Test mode enabled — loading local test files from 'data/'"
-        reads_ch = Channel.fromFilePairs("data/*_{1,2}.fastq.gz", flat: true)
+        reads_ch = Channel.fromFilePairs("Data/*_{1,2}.fastq.gz", flat: true)
     } else {
         // In production mode, use the same (or a different) pattern
-        reads_ch = Channel.fromFilePairs("data/*_{1,2}.fastq.gz", flat: true)
+        reads_ch = Channel.fromFilePairs("Data/*_{1,2}.fastq.gz", flat: true)
     }
 
     // Run fastp for quality trimming
