@@ -48,10 +48,12 @@ Paired-end `.fastq.gz` files — already provided in the `Data/` folder
 
 Install the following tools before running the workflow:
 
-### 1. Git & Git LFS
-https://git-lfs.com 
-https://github.com/git-lfs/git-lfs?tab=readme-ov-file#installing
-Follow the instructions for whatever OS you're testing this on.
+### 1. Download the data from this OneDrive link
+https://gtvault-my.sharepoint.com/:f:/g/personal/cchoudhry3_gatech_edu/Eq8523KpshVLnQ_btyxOVNABh9n7j8RlAByoCYA7nHRA0w?e=eQbTEm
+
+
+I was previously using git-lfs, but this was causing issues due to their quota limits. So, upon cloning this GitHub Repo make sure to replace whatever data is in the Data folder
+with whichever paired-end reads you download from that link. The files that may or may not appear when cloning this repo will merely be pointers, so it's very important to replace them with the data from the OneDrive link!
 ### 2. Install miniconda/conda 
 Use the following website to learn how to install miniconda/conda for your system https://github.com/conda-forge/miniforge
 ### 3. Install Docker
